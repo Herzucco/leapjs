@@ -4,7 +4,7 @@
     var controller, log, reconnect;
     $scope.protocol = 4;
     $scope.script = "http://js.leapmotion.com/leap-0.4.1.min.js";
-    $scope.scripts = ["http://js.leapmotion.com/0.2.0/leap.min.js", "http://js.leapmotion.com/0.2.1/leap.min.js", "http://js.leapmotion.com/0.2.2/leap.min.js", "http://js.leapmotion.com/0.3.0/leap.min.js", "http://js.leapmotion.com/leap-0.4.0.min.js", "http://js.leapmotion.com/leap-0.4.1.min.js"];
+    $scope.scripts = ["http://js.leapmotion.com/0.2.0/leap.min.js", "http://js.leapmotion.com/0.2.1/leap.min.js", "http://js.leapmotion.com/0.2.2/leap.min.js", "http://js.leapmotion.com/0.3.0/leap.min.js", "http://js.leapmotion.com/leap-0.4.0.min.js", "http://js.leapmotion.com/leap-0.4.1.min.js", "http://leapmotion.github.io/leapjs/test/lib/leap-skeleton.js"];
     $scope.log = [];
     $scope.safeApply = function(fn) {
       var phase;
