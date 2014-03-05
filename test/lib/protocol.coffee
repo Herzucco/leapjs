@@ -2,23 +2,23 @@ angular.
   module('ProtocolTest', []).
   controller 'ProtocolController',  ($scope)->
     $scope.protocol = 4
-    $scope.script = "//js.leapmotion.com/leap-0.4.1.min.js"
+    $scope.script = "http://js.leapmotion.com/leap-0.4.1.min.js"
     $scope.scripts = [
-      "//js.leapmotion.com/0.2.0-beta1/leap.min.js"
-      "//js.leapmotion.com/0.2.0-beta2/leap.min.js"
-      "//js.leapmotion.com/0.2.0-beta3/leap.min.js"
-      "//js.leapmotion.com/0.2.0-beta4/leap.min.js"
-      "//js.leapmotion.com/0.2.0-beta5/leap.min.js"
-      "//js.leapmotion.com/0.2.0-beta6/leap.min.js"
-      "//js.leapmotion.com/0.2.0/leap.min.js"
-      "//js.leapmotion.com/0.2.1/leap.min.js"
-      "//js.leapmotion.com/0.2.2/leap.min.js"
-      "//js.leapmotion.com/0.3.0-beta1/leap.min.js"
-      "//js.leapmotion.com/0.3.0-beta2/leap.min.js"
-      "//js.leapmotion.com/0.3.0-beta3/leap.min.js"
-      "//js.leapmotion.com/0.3.0/leap.min.js"
-      "//js.leapmotion.com/leap-0.4.0.min.js"
-      "//js.leapmotion.com/leap-0.4.1.min.js"
+      "http://js.leapmotion.com/0.2.0-beta1/leap.min.js"
+      "http://js.leapmotion.com/0.2.0-beta2/leap.min.js"
+      "http://js.leapmotion.com/0.2.0-beta3/leap.min.js"
+      "http://js.leapmotion.com/0.2.0-beta4/leap.min.js"
+      "http://js.leapmotion.com/0.2.0-beta5/leap.min.js"
+      "http://js.leapmotion.com/0.2.0-beta6/leap.min.js"
+      "http://js.leapmotion.com/0.2.0/leap.min.js"
+      "http://js.leapmotion.com/0.2.1/leap.min.js"
+      "http://js.leapmotion.com/0.2.2/leap.min.js"
+      "http://js.leapmotion.com/0.3.0-beta1/leap.min.js"
+      "http://js.leapmotion.com/0.3.0-beta2/leap.min.js"
+      "http://js.leapmotion.com/0.3.0-beta3/leap.min.js"
+      "http://js.leapmotion.com/0.3.0/leap.min.js"
+      "http://js.leapmotion.com/leap-0.4.0.min.js"
+      "http://js.leapmotion.com/leap-0.4.1.min.js"
     ]
     $scope.log = []
 
